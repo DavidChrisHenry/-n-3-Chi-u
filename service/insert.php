@@ -9,9 +9,9 @@ echo (($_POST['destination']));
 if (
     (isset($_POST['origin'])) && ($_POST['origin'])
     && (isset($_POST['destination'])) && ($_POST['destination'])
-    // && (isset($_POST['time'])) && ($_POST['time'])
-    // && (isset($_POST['far'])) && ($_POST['far'])
-    // && (isset($_POST['result'])) && ($_POST['result'])
+    && (isset($_POST['time'])) && ($_POST['time'])
+    && (isset($_POST['far'])) && ($_POST['far'])
+    && (isset($_POST['result'])) && ($_POST['result'])
 ) {
     // $username = $_POST['username'];
     // $id_search = $_POST['id_search'];
